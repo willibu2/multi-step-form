@@ -1,0 +1,34 @@
+.main {
+  width: 100%;
+  border: 1px solid hsl(231, 11%, 63%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.main-active {
+  background-color: hsl(206, 94%, 87%);
+  border-color: hsl(243, 100%, 62%);
+}
+
+.img {
+  margin-bottom: 3rem;
+}
+
+.main h2,
+.free {
+  color: hsl(213, 96%, 18%);
+}
+
+.price {
+  color: hsl(231, 11%, 63%);
+  font-size: 1rem;
+}
+
+.free {
+  font-size: 0.8rem;
+  font-weight: 500;
+}

@@ -1,0 +1,34 @@
+.div {
+  height: 100%;
+  background-image: url('/images/bg-sidebar-desktop.svg');
+  background-size: cover;
+  /* width: 15rem; */
+  border-radius: 1rem;
+  padding: 2rem;
+  padding-right: 4rem;
+}
+
+.step-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.info-container p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: hsl(206, 94%, 87%);
+}
+
+.info-container h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}

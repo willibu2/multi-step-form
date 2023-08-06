@@ -1,0 +1,65 @@
+.main {
+  /* width: 100%; */
+
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid hsl(229, 24%, 87%);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.main-active {
+  background-color: hsl(206, 94%, 87%);
+  border-color: hsl(243, 100%, 62%);
+}
+
+.btn {
+  width: 1.3rem;
+  height: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid hsl(229, 24%, 87%);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn-active {
+  background-color: blue;
+  border: none;
+}
+
+.checkmark-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  visibility: hidden;
+}
+
+.main-active .checkmark-icon {
+  visibility: visible;
+}
+
+.text-container {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: hsl(213, 96%, 18%);
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 1rem;
+  color: hsl(231, 11%, 63%);
+}
+
+.price {
+  color: hsl(243, 100%, 62%);
+  font-size: 1rem;
+}

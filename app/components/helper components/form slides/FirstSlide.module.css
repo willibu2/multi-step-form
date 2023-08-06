@@ -1,0 +1,43 @@
+.main-section {
+  display: flex;
+}
+
+.main-section form {
+  width: 100%;
+}
+
+.main-section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-section input {
+  /* display: block; */
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid hsl(231, 11%, 63%);
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: hsl(213, 96%, 18%);
+  font-weight: 500;
+}
+
+.main-section label {
+  font-size: 1rem;
+  color: hsl(213, 96%, 18%);
+  font-weight: 500;
+}
+
+.main-section input:focus {
+  outline: none !important;
+  border-color: hsl(213, 96%, 18%);
+}
+
+.main-section p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(354, 84%, 57%);
+}

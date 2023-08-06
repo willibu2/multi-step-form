@@ -1,0 +1,13 @@
+.btn {
+  color: hsl(206, 94%, 87%);
+  font-weight: 700;
+  background-color: transparent;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid hsl(206, 94%, 87%);
+  border-radius: 50%;
+}
+
+.btn-active {
+  color: hsl(213, 96%, 18%);
+  background-color: hsl(206, 94%, 87%);
+}

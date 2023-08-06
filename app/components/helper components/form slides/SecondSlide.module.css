@@ -1,0 +1,47 @@
+.plans-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.switch-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  background-color: hsl(206, 94%, 87%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.monthly,
+.yearly {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(213, 96%, 18%);
+}
+
+.btns-container {
+  padding: 0.3rem;
+  background-color: hsl(213, 96%, 18%);
+  border-radius: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.monthly-btn,
+.yearly-btn {
+  background-color: white;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.active-btn {
+  visibility: visible;
+}

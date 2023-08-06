@@ -1,0 +1,50 @@
+.main {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: hsl(231, 11%, 63%);
+  cursor: pointer;
+}
+
+.main p:hover {
+  color: hsl(213, 96%, 18%);
+}
+
+.main button {
+  padding: 0.8rem 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: hsl(213, 96%, 18%);
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.main button:hover {
+  opacity: 0.8;
+}
+
+.first-page p {
+  visibility: hidden;
+}
+
+.confirm-btn {
+  background-color: hsl(243, 100%, 62%) !important;
+  display: none;
+}
+
+.last-page .confirm-btn {
+  display: block;
+}
+
+.last-page .next-btn {
+  display: none;
+}

@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 0.8rem;
+  color: hsl(231, 11%, 63%);
+}
+
+.price {
+  font-size: 0.8rem;
+  color: hsl(213, 96%, 18%);
+}
